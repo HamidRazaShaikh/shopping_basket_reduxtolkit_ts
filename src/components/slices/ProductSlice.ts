@@ -44,6 +44,7 @@ export const basketSlice = createSlice({
 
             return state.map((item : any)=>{
                 if( item.id !== action.payload.id){
+                    
                     return item
                 }
 
